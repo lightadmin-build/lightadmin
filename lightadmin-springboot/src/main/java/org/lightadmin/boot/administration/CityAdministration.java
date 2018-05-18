@@ -6,7 +6,7 @@ import org.lightadmin.api.config.unit.EntityMetadataConfigurationUnit;
 import org.lightadmin.boot.domain.City;
 
 public class CityAdministration extends AdministrationConfiguration<City> {
-
+//测试提交
     @Override
     public EntityMetadataConfigurationUnit configuration(EntityMetadataConfigurationUnitBuilder configurationBuilder) {
         return configurationBuilder.nameField("name").singularName("City").pluralName("Cities").build();
